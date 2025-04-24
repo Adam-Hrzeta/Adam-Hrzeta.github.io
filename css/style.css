@@ -627,4 +627,33 @@ img, video {
     .footer-links ul {
         padding-left: 0;
     }
+
+    #informacion .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #informacion .d-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #informacion .d-flex > div {
+        border: none;
+        padding: 10px 0;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 10px;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-top: 20px;
+    }
 }
