@@ -12,13 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         navbar.classList.toggle('scrolled', window.scrollY > 50);
     });
     
-    // Asegurar que el botón de colapso funcione correctamente
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarCollapse = document.querySelector('.navbar-collapse');
-    navbarToggler.addEventListener('click', function () {
-        navbarCollapse.classList.toggle('show');
-    });
-    
     // Configuración del carrusel de videos
     const carousel = document.querySelector('#eventCarousel');
     if (carousel) {
