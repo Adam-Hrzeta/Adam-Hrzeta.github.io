@@ -571,6 +571,28 @@ img, video {
     .package-card {
         margin-bottom: 30px;
     }
+
+    #informacion .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #informacion .d-flex > div {
+        border: none;
+        padding: 10px 0;
+    }
+
+    .footer-links ul {
+        text-align: center;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 5px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 576px) {
